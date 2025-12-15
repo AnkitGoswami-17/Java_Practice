@@ -1,4 +1,4 @@
-package Basic.Patterns;
+package DSA_Recap.Patterns.Basic;
 
 public class Pattern5 {
     public static void main(String[] args) {
