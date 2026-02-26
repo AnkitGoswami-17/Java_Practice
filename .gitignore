@@ -27,3 +27,16 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Compiled Files ###
+out/
+target/
+build/
+*.class
+
+### logs ###
+*.log
+
+### OS Files ###
+.DS_Store
+Thumbs.db
