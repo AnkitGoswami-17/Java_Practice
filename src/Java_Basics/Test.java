@@ -1,6 +1,6 @@
 package Java_Basics;
 
-//testing if git clone is working or not
+//PULL-CODE-ADD-COMMIT_PUSH from now on
 public class Test {
     public static void main(String[] args) {
         System.out.println("Hello!");
