@@ -5,8 +5,10 @@ public class Dog extends Animal{
 
    public Dog()  {
        super(6);
+
    }
 
+   @Override
     public void speak() {
         System.out.println(this.x);
         System.out.println(super.x);

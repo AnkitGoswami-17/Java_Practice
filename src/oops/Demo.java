@@ -27,7 +27,7 @@ public class Demo {
         Student st3 = new Student(1243,"Ramu","Hyderabad");
         st3.study();
 
-        Dog d1 = new Dog();
+        Animal d1 = new Dog();
 
         d1.eating();
         System.out.println(d1.color);
