@@ -6,11 +6,11 @@ interface payable {
     
 }
 
-abstract class BasePayement implements payable {
+abstract class BasePayment implements payable {
     private String transactionId;
     private String paymentStatus;
 
-    public BasePayement(String transactionId) {
+    public BasePayment(String transactionId) {
         this.transactionId = transactionId;
         this.paymentStatus = "Pending";
     }
@@ -34,7 +34,7 @@ abstract class BasePayement implements payable {
     public abstract void processPayment(double amount);
 }
 
-class UPIPayment extends BasePayement {
+class UPIPayment extends BasePayment {
 
     private String upiId;
 
@@ -51,7 +51,7 @@ class UPIPayment extends BasePayement {
     }
 }
 
-class CardPayment extends BasePayement {
+class CardPayment extends BasePayment {
 
     private String cardNumber;
 
