@@ -8,7 +8,7 @@ public class FoodDeliverAppNew {
 
         //fetch list of all orders
         List<Order1> orderList = new ArrayList<>();
-        orderList.add(new Order1("ORD001","Biriyani",350.0));
+        orderList.add(new Order1("ORD001","Biryani",350.0));
         orderList.add(new Order1("ORD002","Pizza",520.0));
         orderList.add((new Order1("ORD003","Burger", 199.0)));
 
